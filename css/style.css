@@ -4,8 +4,12 @@ html {
 }
 
 body {
-    max-width: 150vh;
     min-height: 100vh;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 150vh;
     margin: 0 auto;
 }
 

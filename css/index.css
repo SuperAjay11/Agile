@@ -3,22 +3,38 @@ main {
 }
 
 .section1 {
-    width: 99.6%;
+    width: 99%;
     margin: auto;
     margin-top: 5vh;
-    height: 39vh;
+    height: 38.5vh;
     display: flex;
     justify-content: center;
     background-color: grey;
-    border-radius: 4px 4px 0 0;
+    border-radius: 10px 10px 0 0;
     border-top: 10px solid #555555;
 }
 
 .textbox {
     border-style: inset;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
     box-sizing: border-box;
     padding: 0.75vh;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+}
+
+#submit {
+    border-style: none;
+    border-radius: 0 0 5px 5px;
+    height: 3.5vh;
+    cursor: pointer;
+    font-family: Raleway;
+    border-style: inset;
+    border-width: 1px;
+    border-top: none;
 }
 
 .section1 div {

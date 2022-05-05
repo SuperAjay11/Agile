@@ -1,9 +1,14 @@
 header {
+    height: 8vh;
+    background-color: #009dff;
+}
+
+nav {
+    margin: auto;
+    width: 150vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
-    background-color: #009dff;
 }
 
 header a:hover {
@@ -19,7 +24,6 @@ ul {
     gap: 4vh;
     padding: 0;
     margin: 0;
-    margin-right: 4vh;
 }
 
 ul li a {
