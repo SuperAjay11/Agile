@@ -2,10 +2,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #A7C7E7;
+    height: 8vh;
+    background-color: #009dff;
 }
 
 header a:hover {
+    transition-duration: 0.4s;
+    color: #009dff;
     background-color: white;
     border-radius: 5px;
 }
@@ -21,11 +24,11 @@ ul {
 
 ul li a {
     padding: 1.5vh;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
 #navimg:hover {
-background-color: #A7C7E7;
+background-color: #009dff;
 }

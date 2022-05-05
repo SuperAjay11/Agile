@@ -1,13 +1,17 @@
 main {
-    height: 92vh;
+    max-height: 100vh;
 }
 
 .section1 {
-    margin-top: 2vh;
-    height: 40vh;
+    width: 99.6%;
+    margin: auto;
+    margin-top: 5vh;
+    height: 39vh;
     display: flex;
     justify-content: center;
     background-color: grey;
+    border-radius: 4px 4px 0 0;
+    border-top: 10px solid #555555;
 }
 
 .textbox {
@@ -22,12 +26,15 @@ main {
 }
 
 .section2 {
-    height: 49.75vh;
+    height: 46.7vh;
     display: flex;
     justify-content: center;
     border-style: solid;
-    border-width: 1px;
-
+    border-color: #D3D3D3;
+    border-radius: 4px;
+    border-top-width: 1px;
+    border-width: 4px;
+    background-color: white;
 }
 
 .section2 div {
