@@ -1,11 +1,12 @@
 header {
     height: 8vh;
     background-color: #009dff;
+    width: 100%;
 }
 
 nav {
     margin: auto;
-    width: 150vh;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
