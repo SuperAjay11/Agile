@@ -21,20 +21,32 @@ main {
     padding: 0.75vh;
 }
 
+#output {
+    border-radius: 6px;
+}
+
 form {
     display: flex;
     flex-flow: column;
 }
 
 #submit {
-    border-style: none;
     border-radius: 0 0 5px 5px;
     height: 3.5vh;
     cursor: pointer;
     font-family: Raleway;
     border-style: inset;
     border-width: 1px;
-    border-top: none;
+    background-color: white;
+    border-top: solid 0.5px;
+}
+
+#submit:hover {
+    background-color: #dedede;
+}
+
+#submit:active {
+    background-color: #ececec;
 }
 
 .section1 div {
