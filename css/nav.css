@@ -34,6 +34,10 @@ ul li a {
     font-size: 18px;
 }
 
+#navimg{
+    padding-top:10px;
+}
+
 #navimg:hover {
 background-color: #009dff;
 }
