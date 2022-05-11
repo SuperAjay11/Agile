@@ -1,0 +1,68 @@
+main {
+    max-height: 100vh;
+}
+
+.section1 {
+    width: 99%;
+    margin: auto;
+    margin-top: 5vh;
+    height: 38.5vh;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    border-style: inset;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.textbox {
+    border-style: inset;
+    border-radius: 6px 6px 0 0;
+    box-sizing: border-box;
+    padding: 0.75vh;
+}
+
+#output {
+    border-radius: 6px;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+}
+
+#submit {
+    border-radius: 0 0 5px 5px;
+    height: 3.5vh;
+    cursor: pointer;
+    font-family: Raleway;
+    border-style: inset;
+    border-width: 1px;
+    background-color: white;
+    border-top: solid 0.5px;
+}
+
+#submit:hover {
+    background-color: #dedede;
+}
+
+#submit:active {
+    background-color: #ececec;
+}
+
+.section1 div {
+    margin-top: 7vh;
+}
+
+.section2 {
+    height: 47.4vh;
+    display: flex;
+    justify-content: center;
+    border-style: outset;
+    border-width: 4px;
+    background-color: white;
+}
+
+.section2 div {
+    margin-top: 10vh;
+}
