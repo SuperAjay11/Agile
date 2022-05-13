@@ -23,19 +23,22 @@
             <section class="section1">
                 <div>
                     <center><h1>Inputs</h1></center>
-                    <textarea rows="5" cols="40" name="usrinput" class="textbox" id="input" 
-                    placeholder="Input Text Here" onfocus="this.placeholder=' '" onblur="this.placeholder='Input Text Here'" 
-                    style="font-size: 20px; resize: none; outline: 0; font-family: Raleway;"></textarea>
-                    <input type="submit" value="Submit" id="submit">
+                    <form method="POST" action="">
+                        <textarea rows="5" cols="40" name="usrinput" class="textbox" id="input" 
+                        placeholder="Input Text Here" onfocus="this.placeholder=' '" onblur="this.placeholder='Input Text Here'" 
+                        style="font-size: 20px; resize: none; outline: 0; font-family: Raleway;"></textarea>
+                        <input type="submit" value="Submit" id="submit" onclick="submit">
+                    </form>
                 </div>
             </section>
+            
             <section class="section2">
                 <div>
                     <center><h1>Output</h1></center>
                     <textarea rows="7" cols="45" 
-                    name="usrinput" class="textbox" id="output" 
+                    name="u2srinput" class="textbox" id="output" 
                     style="font-size: 20px; resize: none; outline: 0; font-family: Raleway;"></textarea>
-                    <button id='random'>Random</button>
+                    <button id='random' onclick="random">Random</button>
                 </div>
             </section>
         </main>
