@@ -23,7 +23,7 @@ main {
 }
 
 #output {
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
 }
 
 form {
@@ -65,4 +65,27 @@ form {
 
 .section2 div {
     margin-top: 10vh;
+}
+
+#outputdiv {
+    display: flex;
+    flex-flow: column;
+}
+
+#random {
+    height: 3.5vh;
+    background-color: white;
+    cursor: pointer;
+    font-family: Raleway;
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 0 0 5px 5px;
+}
+
+#random:hover {
+    background-color: #dedede;
+}
+
+#random:active {
+    background-color: #ececec;
 }
