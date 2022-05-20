@@ -1,46 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Random Generator|Home</title>
-        <link rel="stylesheet" href="/static/css/style.css">
-        <link rel="stylesheet" href="/static/css/nav.css">
-        <link rel="stylesheet" href="/static/css/index.css">
-        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html" id="navimg"><img src="/static/images/RTG-logo_transparent1.png" alt="RTG Logo" width="175px"></a>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="wheel.html">Wheel</a></li>
-                    <li><a href="">Placeholder3 </a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="section1">
-                <div>
-                    <center><h1>Inputs</h1></center>
-                    <form method="POST" action="">
-                        <textarea rows="5" cols="40" name="usrinput" class="textbox" id="input" 
-                        placeholder="Input Text Here" onfocus="this.placeholder=' '" onblur="this.placeholder='Input Text Here'" 
-                        style="font-size: 20px; resize: none; outline: 0; font-family: Raleway;"></textarea>
-                        <input type="submit" value="Submit" id="submit" onclick="submit">
-                    </form>
-                </div>
-            </section>
-            
-            <section class="section2">
-                <div id="outputdiv">
-                    <center><h1>Output</h1></center>
-                    <textarea rows="7" cols="45" 
-                    name="u2srinput" class="textbox" id="output" 
-                    style="font-size: 20px; resize: none; outline: 0; font-family: Raleway;"></textarea>
-                    <button id='random' onclick="random">Random</button>
-                </div>
-            </section>
-        </main>
+<html> 
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="../static/index.css"> 
+
+
+
+
+	</head>
+	
+	<body>
+
+        <form class="grid" action="/result" method="POST">
+
+          
+            <center>
+              <h3 style="color:aquamarine;" class="let_space"> Random Task: {{ task }} </h3>
+            </center> 
+
+          
+           
+          <label for="name">Input Tasks:</label>
+          <input type="text" id="name" name="name">
+
+          <center><input class="file_submit" type="Submit"></center>
+
+        </form>
+
+        
+
+        
+
+        
+        <br>
+        <br>
+        <br>
+
+
     </body>
+
 </html>
