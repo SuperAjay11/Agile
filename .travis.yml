@@ -5,5 +5,5 @@ python:
 install: "pip install -r ./requirements.txt"
 
 script:
-- pytest --cov=./test_random.py
+- pytest test_random.py -v --cov=.
 
