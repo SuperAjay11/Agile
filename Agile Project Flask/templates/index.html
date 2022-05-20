@@ -1,42 +1,25 @@
 <html> 
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
+    <meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../static/index.css"> 
-
-
-
-
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title>Random Generator | Home</title>
 	</head>
 	
 	<body>
-
-        <form class="grid" action="/result" method="POST">
-
-          
-            <center>
-              <h3 style="color:aquamarine;" class="let_space"> Random Task: {{ task }} </h3>
-            </center> 
-
-          
-           
-          <label for="name">Input Tasks:</label>
-          <input type="text" id="name" name="name">
-
-          <center><input class="file_submit" type="Submit"></center>
-
-        </form>
-
-        
-
-        
-
-        
-        <br>
-        <br>
-        <br>
-
-
-    </body>
+    <main>
+      <div id="text">
+        <h2>Random Task Generator</h2>
+        <p>Choosing your tasks made fun!</p>
+      </div>
+      <form action="/result" method="POST">
+        <label for="name">Input Tasks</label>
+        <input type="text" id="name" name="name">
+        <input class="file_submit" type="Submit">
+        <textarea readonly>{{task}}</textarea>
+      </form>
+    </main>
+  </body>
 
 </html>
