@@ -1,5 +1,4 @@
 language: python
-from project.models.random_output import user_input, word_list, random_output
 python:
   - "3.9"
 
